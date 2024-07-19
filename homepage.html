@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepagestyle.css">
+    <link rel="stylesheet" href="sidenav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
 </head>
 <body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <a href="#home">Home</a>
+
+        <div class="dropdownside">
+            <button class="dropbtn">MediaCentre</button>
+            <div class="dropdown-content">
+                <a href="#">News</a>
+                <a href="#">Success Stories</a>
+            </div>
+        </div>
+
+        <div class="dropdownside">
+            <button class="dropbtn">Contact Us</button>
+            <div class="dropdown-content">
+                <a href="#">Queries</a>
+                <a href="#">Complaints</a>
+            </div>
+        </div>
+
+        <a href="#news">Careers</a>
+      </div>
 
 <div class="navbar">
     <div class="logo"><img src="images.jpg"></div>
@@ -73,7 +98,7 @@
     </div>
 
     <a href="#home">Home</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" style="cursor:pointer" onclick="openNav()">
         <i class="fa fa-bars"></i>
       </a>
 </div>
