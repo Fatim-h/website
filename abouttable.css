@@ -1,0 +1,22 @@
+.aboutnews{
+    background-color:#333;
+    color:aliceblue;
+    display: block;
+    
+}
+.aboutnewres{
+    background-color:#333;
+    color:aliceblue;
+    display: none;
+}
+
+.aboutres{
+    padding: 5%;
+    background-color: #333;
+    color: white;
+}
+
+.tdata{
+    padding-left: 2%;
+    width:50%;
+}
