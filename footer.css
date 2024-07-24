@@ -42,3 +42,26 @@
     text-align: right;
     margin-right: 3%;
 }
+
+.bottomnavresponsive{
+    overflow: hidden;
+    align-items: center;
+    height: 10%;
+    background-color: #807877;
+    display: none;
+}
+.bottomnavresponsive a{
+    text-decoration: none;
+    color: white;
+}
+.bottomnavresponsive a:hover{
+    text-decoration: none;
+    color:#d1cece;
+}
+.bottomnavresponsive h3{
+    color: white;
+}
+
+.col6{
+    margin-right: 6%;
+}
