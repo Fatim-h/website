@@ -41,6 +41,10 @@
   color: #3d4880;
 }
 
+.partnersslider{
+    display:block;
+}
+
 /* Style the tab content */
 .partnercontent {
     display: none;
@@ -107,4 +111,44 @@ img {vertical-align: middle;}
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+
+  .tabresponsive {
+    overflow: hidden;
+    background-color:#3d4880;
+    display: none;
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tabresponsive button{
+      display: block;
+      background-color: #3d4880;
+      color: white;
+      text-decoration: none;
+      flex:1;
+      border: white;
+      border-style: groove;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tabresponsive button:hover {
+      color: #3d4880;
+      background-color: white;
+      cursor: pointer;
+  }
+  
+  /* Create an active/current tablink class */
+  .tabresponsive button.active {
+    background-color: white;
+    border-style: none;
+    color: #3d4880;
+  }
+
+  .tablinksres{
+    flex:1;
+    border: white;
+    border-style:inset;
+}
   
