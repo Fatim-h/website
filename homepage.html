@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="topnav.css" />
+  <link rel="stylesheet" href="sidenav.css" />
+  <link rel="stylesheet" href="slider.css" />
+  <link rel="stylesheet" href="abouttable.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="partners.css" />
+  <link rel="stylesheet" href="partnersslider.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Atlas Venture</title>
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="linkside"><a href="homepage.html">Home</a></div>
+
+    <div class="dropdownside">
+      <button class="dropbtn">About Us</button>
+      <div class="dropdown-content">
+        <a href="thecompany.html">The Company</a>
+        <a href="CEOmessage.html">Message by the CEO</a>
+        <a href="VisionMission.html">Vision and Mission</a>
+        <a href="qualitypolicy.html">Quality Policy</a>
+        <a href="directors.html">Board of Directors</a>
+        <a href="management.html">Management Committee</a>
+        <a href="http://www.atlas.com.pk/" target="_blank">Atlas Group</a>
+        <a href="atlasway.html">Atlas Way</a>
+      </div>
+    </div>
+
+    <div class="dropdownside">
+      <button class="dropbtn">Products</button>
+      <div class="dropdown-content">
+        <a href="#">Business Solutions</a>
+        <a href="#">Healthcare Solutions</a>
+        <a href="#">Industrial Solutions</a>
+        <a href="#">Mobility Solutions</a>
+      </div>
+    </div>
+
+    <div class="dropdownside">
+      <button class="dropbtn">Partners</button>
+      <div class="dropdown-content">
+        <a href="#">Business Solutions</a>
+        <a href="#">Healthcare Solutions</a>
+        <a href="#">Industrial Solutions</a>
+      </div>
+    </div>
+
+    <div class="dropdownside">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="#">Business Solutions</a>
+        <a href="#">Healthcare Solutions</a>
+        <a href="#">Spareparts and Consumables</a>
+      </div>
+    </div>
+
+    <div class="dropdownside">
+      <button class="dropbtn">MediaCentre</button>
+      <div class="dropdown-content">
+        <a href="#">News</a>
+        <a href="#">Success Stories</a>
+      </div>
+    </div>
+
+    <div class="dropdownside">
+      <button class="dropbtn">Contact Us</button>
+      <div class="dropdown-content">
+        <a href="#">Queries</a>
+        <a href="#">Complaints</a>
+      </div>
+    </div>
+
+    <div class="linkside"><a href="careers.html">Careers</a></div>
+  </div>
+
+  <div class="navbar">
+    <div class="logo"><img src="images\logo.jpg" /></div>
+    <div class="link"><a href="homepage.html">Home</a></div>
+
+    <div class="dropdown">
+      <button class="dropbtn">About Us</button>
+      <div class="dropdown-content">
+        <a href="thecompany.html">The Company</a>
+        <a href="CEOmessage.html">Message by the CEO</a>
+        <a href="VisionMission.html">Vision and Mission</a>
+        <a href="qualitypolicy.html">Quality Policy</a>
+        <a href="directors.html">Board of Directors</a>
+        <a href="management.html">Management Committee</a>
+        <a href="http://www.atlas.com.pk/" target="_blank">Atlas Group</a>
+        <a href="atlasway.html">Atlas Way</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Products</button>
+      <div class="dropdown-content">
+        <a href="#">Business Solutions</a>
+        <a href="#">Healthcare Solutions</a>
+        <a href="#">Industrial Solutions</a>
+        <a href="#">Mobility Solutions</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Partners</button>
+      <div class="dropdown-content">
+        <a href="#">Business Solutions</a>
+        <a href="#">Healthcare Solutions</a>
+        <a href="#">Industrial Solutions</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="#">Business Solutions</a>
+        <a href="#">Healthcare Solutions</a>
+        <a href="#">Spareparts and Consumables</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">MediaCentre</button>
+      <div class="dropdown-content">
+        <a href="#">News</a>
+        <a href="#">Success Stories</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Contact Us</button>
+      <div class="dropdown-content">
+        <a href="#">Queries</a>
+        <a href="#">Complaints</a>
+      </div>
+    </div>
+
+    <div class="link"><a href="careers.html">Careers</a></div>
+    <a href="javascript:void(0);" class="icon" style="cursor: pointer" onclick="openNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img id="sliderimg" src="images\business-solutions-1536x864.jpg" style="width: 100%;" />
+      <div class="text"><a href="#">Explore</a></div>
+      <div class="dots_container" style="text-align: center; background-color: white;padding: 2%;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img id="sliderimg" src="images\healthcare-solutions-1536x864.jpg" style="width: 100%; " />
+      <div class="text"><a href="#">Explore</a></div>
+      <div class="dots_container" style="text-align: center; background-color: white;padding: 2%;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img id="sliderimg" src="images\industrial-solutions-1024x576.jpg" style="width: 100%;" />
+      <div class="text"><a href="#">Explore</a></div>
+      <div class="dots_container" style="text-align: center; background-color: white;padding: 2%;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div id="sliderimg" class="numbertext">4 / 4</div>
+      <img src="images\mobility-solutions-1536x864.jpg" style="width: 100%;" />
+      <div class="text"><a href="#">Explore</a></div>
+      <div class="dots_container" style="text-align: center; background-color: white;padding: 2%;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  
+
+  <table class="aboutnews" id="aboutnews">
+    <th>
+      <tr>
+        <td class="tdata">
+          <h1>The Company</h1>
+        </td>
+        <td class="tdata">
+          <h1>News and Events</h1>
+        </td>
+      </tr>
+    </th>
+    <tbody>
+      <tr>
+        <td class="tdata">
+          <br />
+          <div>
+            <p>
+              Atlas Venture Dubai, established in 2006, is a key player in the
+              global trading landscape, committed to driving excellence and
+              innovation across various sectors. Positioned in Dubai's dynamic
+              economic environment, the company is dedicated to transforming
+              the trading experience through strategic vision and operational
+              expertise.
+            </p>
+          </div>
+          <div style="
+                padding: 20px;
+                width: 30%;
+                margin: 5%;
+                background-color: rgba(255, 0, 0, 0.932);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+              ">
+            <a style="
+                  text-decoration: none;
+                  display: block;
+                  color: white;
+                  text-align: center;
+                " href="#">Learn More</a>
+          </div>
+        </td>
+        <td class="tdata" id="News">
+          <div>
+            <table style="border-collapse: collapse; align-content: center">
+              <thead style="padding: 10px">
+                <tr style="
+                      display: flex;
+                      align-items: center;
+                      align-content: center;
+                    ">
+                  <td style="display: 1; padding: 20px">
+                    <img style="width: 100%; height: auto" src="images/news.jpg" />
+                  </td>
+                  <td style="display: 1; padding: 20px">
+                    <h2>Retirement of Associate</h2>
+                    <p>
+                      Mr. Zafar Hussain Shah (Chief Operating Officer –
+                      Healthcare Solutions) retired on achieving his
+                      superannuation age. 25th June, 2024 was his last working
+                      day...
+                    </p>
+                  </td>
+                </tr>
+              </thead>
+            </table>
+            <div style="width: 100%; margin: 5%; text-align: right">
+              <a style="margin: 10%; color: white; text-align: right" href="#">Read More</a>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="abotnewsres" id="aboutnewsres">
+    <div class="aboutres">
+      <h1>The Company</h1>
+      <div>
+        <p>
+          Atlas Venture Dubai, established in 2006, is a key player in the
+          global trading landscape, committed to driving excellence and
+          innovation across various sectors. Positioned in Dubai's dynamic
+          economic environment, the company is dedicated to transforming
+          the trading experience through strategic vision and operational
+          expertise.
+        </p>
+      </div>
+      <div style="
+                padding: 20px;
+                width: 30%;
+                margin: 5%;
+                background-color: rgba(255, 0, 0, 0.932);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+              ">
+            <a style="
+                  text-decoration: none;
+                  display: block;
+                  color: white;
+                  text-align: center;
+                " href="#">Learn More</a>
+          </div>
+    </div>
+    <div class="aboutres" style="border-top: 1px #242323; border-style: outset; border-right: 0px;border-bottom:  0px;border-left: 0px;">
+      <h1>News and Events</h1>
+      <div id="">
+        <img style="width: 100%; height: auto" src="images\news.jpg" />
+        <h2>Retirement of Associate</h2>
+                    <p>
+                      Mr. Zafar Hussain Shah (Chief Operating Officer –
+                      Healthcare Solutions) retired on achieving his
+                      superannuation age. 25th June, 2024 was his last working
+                      day...
+                    </p>
+      </div>
+      <div style="width: 100%; margin: 5%; text-align: right">
+        <a style="margin: 10%; color: white; text-align: right" href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="head">
+    <h1>Partners</h1>
+  </div>
+  <div class="tab" id="tab">
+    <button class="tablinks" onclick="openCity(event, 'Business Solutions')">
+      <h3>Business Solutions</h3>
+    </button>
+    <button class="tablinks" onclick="openCity(event, 'Healthcare Solutions')">
+      <h3>Healthcare Solutions</h3>
+    </button>
+    <button class="tablinks" onclick="openCity(event, 'Industrial Solutions')">
+      <h3>Industrial Solutions</h3>
+    </button>
+  </div>
+  <div class="tabresponsive" id="tabresponsive">
+    <button class="tablinksres" onclick=" window.location.href = '#home'" >
+      <h3>Business Solutions</h3>
+    </button>
+    <button class="tablinksres" onclick=" window.location.href = '#home'">
+      <h3>Healthcare Solutions</h3>
+    </button>
+    <button class="tablinks" onclick=" window.location.href = '#home'">
+      <h3>Industrial Solutions</h3>
+    </button>
+  </div>
+<div id="partnersslider">
+  <div id="Business Solutions" class="partnercontent" id="partnercontent">
+    <div class="slideshow-container1">
+
+      <div class="mySlides1 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="images\ABBYY.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>ABBYY</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.abbyy.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="images\logo-02.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Bibliotheca</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.bibliotheca.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner3">
+          <div class="logo">
+            <img src="images\canon-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Canon</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://asia.canon/en/business" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner4">
+          <div class="logo">
+            <img src="images\logo-04.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Easy Software</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://easy-software.com/en/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner5">
+          <div class="logo">
+            <img src="images\Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us" target="_blank">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="images/logo-05.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Image Access GMBH</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.imageaccess.de/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="images/sagwe.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Treventus</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.treventus.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner3">
+          <div class="logo">
+            <img src="images/sadfgwer.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Innovatrics</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.innovatrics.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner4">
+          <div class="logo">
+            <img src="images/rewsdfg.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Convene</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.azeusconvene.com/board-management-software" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner5">
+          <div class="logo">
+            <img src="images/partners.svg" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Positive Technologies</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.ptsecurity.com/ww-en/products/mpsiem/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="prev1" onclick="plusSlides1(-1)">❮</a>
+      <a class="next1" onclick="plusSlides1(1)">❯</a>
+
+    </div>
+  </div>
+
+  <div id="Healthcare Solutions" class="partnercontent" id="partnercontent">
+    <div class="slideshow-container2">
+
+      <div class="mySlides2 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="images/sdafbgwsfafs.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Eizo</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.eizo.eu/medical-monitors" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="images/GH-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>GE Healthcare</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.gehealthcare.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="prev2" onclick="plusSlide2(-1)">❮</a>
+      <a class="next2" onclick="plusSlides2(1)">❯</a>
+
+    </div>
+  </div>
+
+  <div id="Industrial Solutions" class="partnercontent" id="partnercontent">
+    <div class="slideshow-container3">
+
+      <div class="mySlides3 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="images\Toyota-tsusho.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Toyota Tsusho Coorperation</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.toyota-tsusho.com/english/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="images/kemi.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Kemi</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.kemi.it/en/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner3">
+          <div class="logo">
+            <img src="images/sanyo-chemical.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Sanyo Chamical</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.sanyo-chemical.co.jp/eng/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner4">
+          <div class="logo">
+            <img src="images/kimpur.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Kimpur(Kimteks Polyurethane)</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://kimpur.com/en/" target="_blank">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner5">
+          <div class="logo">
+            <img src="images/dafgawerfwfsss.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Aksa</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.aksa.com/tr" target="_blank">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mySlides3 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>AstroPhysics</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://astrophysicsinc.com/">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner3">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner4">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner5">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes1</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mySlides3 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="images/Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner3">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner4">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner5">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes1</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mySlides3 fade">
+        <div class="partner1">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner2">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+        <div class="partner3">
+          <div class="logo">
+            <img src="Pitney-Bowes-logo.png" alt="Partner Logo 1" />
+          </div>
+          <div class="name">
+            <h4>Pitney Bowes</h4>
+          </div>
+          <div class="linkof">
+            <a href="https://www.pitneybowes.com/us">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="prev1" onclick="plusSlides3(-1)">❮</a>
+      <a class="next1" onclick="plusSlides3(1)">❯</a>
+
+    </div>
+  </div>
+</div>
+
+  <br />
+  <div style="align-items: center; width: 100%; overflow: hidden;">
+    <h1 style="text-align: center">The Group</h1>
+    <div style="align-items: center; margin-left: 15%">
+      <video class="groupvid" controls="controls" width="80%"
+        poster="https://stc.atlas.pk/wp-content/uploads/2024/02/atlasgroup-video-poster.jpg" autoplay loop>
+        <source src="https://stc.atlas.pk/wp-content/themes/karigarv2/includes/video/atlas-group.mp4  "
+          type="video/mp4" />
+      </video>
+    </div>
+  </div>
+  <br />
+
+  <div class="bottomnav" id="bottomnav">
+    <div class="col1" style="padding-left: 20px">
+      <h3>About us</h3>
+      <a href="thecompany.html">The Company</a><br/>
+      <a href="CEOmessage.html">Message by the CEO</a><br />
+      <a href="VisionMission.html">Vision and Mission</a><br />
+      <a href="qualitypolicy.html">Quality Policy</a><br />
+      <a href="directors.html">Board of Directors</a><br />
+      <a href="management.html">Management Committee</a><br />
+      <a href="http://www.atlas.com.pk/" target="_blank">Atlas Group</a><br />
+      <a href="atlasway.html">Atlas Way</a><br /><br /><br /><br /><br /><br />
+    </div>
+
+    <div class="col2">
+      <h3>Products</h3>
+      <a href="#">Business Solutions</a><br />
+      <a href="#">Healthcare Solutions</a><br />
+      <a href="#">Industrial Solutions</a><br />
+      <a href="#">Mobility Solutions</a><br />
+      <br />
+      <h3>Partners</h3>
+      <a href="#">Business Solutions</a><br />
+      <a href="#">Healthcare Solutions</a><br />
+      <a href="#">Industrial Solutions</a><br />
+      <br /><br />
+
+    </div>
+    <div class="col3">
+      <h3>Services</h3>
+      <a href="#">Business Solutions</a><br />
+      <a href="#">Healthcare Solutions</a><br />
+      <a href="#">Spareparts and Consumables</a><br />
+      <br />
+      <h3>MediaCentre</h3>
+      <a href="#">News</a><br />
+      <a href="#">Success Stories</a><br /><br /><br /><br />
+    </div>
+    <div class="col4">
+      <h3>Contact Us</h3>
+      <a href="#">Queries</a><br />
+      <a href="#">Complaints</a><br />
+      <br /><br /><br />
+      <a href="#">
+        <h3>Careers</h3>
+      </a><br /><br /><br /><br /><br />
+    </div>
+
+    <div class="col5" style="padding-right: 20px">
+      <ul>
+        <aside id="custom_html-3" class="widget_text widget widget_custom_html sty">
+          <h3>Head Office</h3>
+          <div class="textwidget custom-html-widget">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14488.898844882027!2d67.0762176!3d24.7877578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x81154e55e42d0e11!2sShirazi%20Trading%20Company%20(Head%20Office)!5e0!3m2!1sen!2s!4v1634227269456!5m2!1sen!2s"
+              width="100%" height="220" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </aside>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bottomnavresponsive" id="bottomnavresponsive">
+    <div class="col6" >
+      <ul>
+        <aside id="custom_html-3" class="widget_text widget widget_custom_html sty">
+          <h3>Head Office</h3>
+          <div class="textwidget custom-html-widget">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14488.898844882027!2d67.0762176!3d24.7877578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x81154e55e42d0e11!2sShirazi%20Trading%20Company%20(Head%20Office)!5e0!3m2!1sen!2s!4v1634227269456!5m2!1sen!2s"
+              width="100%" height="220" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </aside>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="copyright">
+      <p>AllCopyrightReserved</p>
+    </div>
+    <div class="socials">
+      <p>
+        <a href="https://www.linkedin.com/company/shirazi-trading-company-pvt--ltd-/" target="_blank"><img
+            class="img-fluid" src="https://stc.atlas.pk/wp-content/uploads/2022/04/linkedin-icon-stc.png" alt="" /></a>
+        <a href="https://webmail.pair.com/" target="_blank"><img class="img-fluid"
+            src="https://stc.atlas.pk/wp-content/uploads/2022/04/mail-icon-stc.png" alt="" /></a>
+      </p>
+    </div>
+  </div>
+  <script src="homepagestyle.js"></script>
+  <script src="partnerslider.js"></script>
+  <script src="responsive.js"></script>
+</body>
+
+</html>

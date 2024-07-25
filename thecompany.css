@@ -1,0 +1,36 @@
+body {font-family:sans-serif; margin:0}
+p {
+    line-height: 1.5; /* Adjust the value as needed */
+}
+
+.main{
+    background-color: #3d4880;
+    color:white;
+    padding: 5%;
+}
+.logo{
+    width:40%;
+    height: auto;
+    flex:2;
+  }
+.directors{
+    background-color: white;
+    color: #333;
+    display: flex;
+}
+.profile{
+    flex: 1;
+    width:100%;
+}
+.profile img{
+    padding: 5%;
+    width: 90%;
+    height:auto;
+}
+
+.info{
+    flex: 3;
+}
+
+
+  
